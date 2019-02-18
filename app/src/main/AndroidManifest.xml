@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.sutharnil.task1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".MainActivity"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.SEARCH"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <meta-data
+                    android:name="android.app.searchable"
+                    android:resource="@xml/searchable"/>
+        </activity>
+
+        <service
+                android:name=".MyIntentService"
+                android:exported="false"/>
+        <service
+                android:name=".MyService"
+                android:exported="false"/>
+
+        <activity
+                android:name=".collaps_toolbar"
+                android:label="Collaps Toolbar"
+                android:parentActivityName=".MainActivity"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+                android:name=".Main2Activity"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".Recyclerview">
+        </activity>
+        <activity android:name=".Recyclerview2">
+        </activity>
+        <activity android:name=".Collaps">
+        </activity>
+        <activity android:name=".Recyclerwithdatabase"
+                  android:label="DataBase"  >
+        </activity>
+        <activity android:name=".Database">
+        </activity>
+    </application>
+
+</manifest>

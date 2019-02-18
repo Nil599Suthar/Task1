@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+    <item
+            android:id="@+id/menu12"
+            android:title="profile"
+            android:checkable="true"
+            android:icon="@drawable/ic_person_black_24dp"
+    />
+    <item
+            android:id="@+id/menu13"
+            android:title="Account"
+            android:checkable="true"
+
+            android:icon="@drawable/ic_account_box_black_24dp"
+    />
+    <item
+            android:id="@+id/menu11"
+            android:checkable="true"
+
+            android:title="setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+    />
+
+    <item
+            android:id="@+id/menu16"
+            android:title="search"
+            android:checkable="true"
+
+            android:icon="@drawable/ic_search_black_24dp"/>
+    <item
+            android:id="@+id/menu15"
+            android:checkable="true"
+
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="share"/>
+    <item
+            android:id="@+id/menu14"
+            android:title="log out"
+            android:checkable="true"
+
+            android:icon="@drawable/ic_lock_black_24dp"
+    /></group>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/menu1"
+            android:title="setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/menu2"
+            android:title="profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/menu3"
+            android:title="Account"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/menu4"
+            android:title="log out"
+            android:icon="@drawable/ic_lock_black_24dp"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/menu6"
+            android:title="Search"
+            app:showAsAction="always|collapseActionView"
+            android:icon="@drawable/ic_search_black_24dp"
+            app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item
+        android:id="@+id/menu5"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="share"/>
+
+</menu>

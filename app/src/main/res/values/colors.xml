@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#504037</color>
+    <color name="colorAccent">#6c6c6c</color>
+    <color name="white">#ffffff</color>
+    <color name="year">#0935e6</color>
+    <color name="colorAccent1">#f50a0a</color>
+    <color name="colorPrimary2">#f16006</color>
+    <color name="colorPrimaryDark2">#fd4204</color>
+    <color name="colorAccent2">#6c6c6c</color>
+    <color name="msg_no_notes">#999</color>
+    <color name="hint_enter_note">#89c3c3c3</color>
+    <color name="timestamp">#858585</color>
+    <color name="note_list_text">#232323</color>
+</resources>
